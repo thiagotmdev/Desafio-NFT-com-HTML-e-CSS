@@ -35,7 +35,7 @@ My process was very fun, i have download the project on site Frontend mentor and
 
 ### What I learned
 
-I can learn a way to make a layout of card with a qrcode inside it and training my skills of css.
+I can learn a way to make a layout of a nfy card and training my skills of css.
 
 ## Author
 Name: Thiago Mendes - thiagotmdev
