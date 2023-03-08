@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0d1a2d;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100vh;
+}
+
+.card{
+    width: 320px;
+    height: 540px;
+    background-color: #15273f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-shadow: 5px 5px 30px #010b18;
+}
+
+.img_Eq{
+    width: 275px;
+    height: 275px;
+    border-radius: 7px;
+    position: inherit;
+}
+
+.title{
+   margin-top: 32px;
+   margin-bottom: 20px;
+   display: flex;
+   color: #FFF;
+}
+
+.title:hover{
+    color: #00fffb;
+    cursor: pointer;
+}
+
+.p_pgf{
+    color: #4d6182;
+    margin-bottom: 27px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth{
+    width: 13px;
+    height: 20px;
+}
+
+.d-left{
+    width: 20px;
+    height: 20px;
+}
+
+.p_eth{
+    color: #00fffb;
+}
+
+.d-left{
+    margin-left: 70px;
+}
+
+.p_dlf{
+    color: #829ecd;
+}
+
+hr{
+    margin-top: 20px;
+    border: 1px solid #22344c;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.img_avatar{
+    width: 30px;
+    height: 30px;
+}
+
+.create{
+    color: #6e86a8;
+    margin-left: 15px;
+}
+
+.author{
+    color: #b0bdcd;
+    margin-left: 5px;
+}
+
+.author:hover{
+    color: #00fffb;
+    cursor: pointer;
+}
+
+.box{
+    width: 275px;
+    height: 275px;
+    border-radius: 7px;
+    position: absolute;
+    background-color: #00fffb;
+    margin-top: -279px;
+    color: #FFF;
+    display: none;
+}
+
+.transp:hover .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+}
+
+.eye{
+    width: 50px;
+    height: 55px;
+}
